@@ -42,6 +42,7 @@ public class SIConverter {
 		units = units.replaceAll("hour", "s");
 		units = units.replaceAll("min", "s");
 		units = units.replaceAll("º", "rad");
+		units = units.replaceAll("°", "rad");
 		units = units.replaceAll("'", "rad");
 		units = units.replaceAll("ha", "m²");
 		units = units.replaceAll("L", "m³");
@@ -62,6 +63,7 @@ public class SIConverter {
 		units  = units.replaceAll("hour", "h");
 		units  = units.replaceAll("day", "d");
 		units  = units.replaceAll("º", "degree");
+		units  = units.replaceAll("°", "degree");
 		units  = units.replaceAll("'", "arcminute");
 		units  = units.replaceAll("\"", "arcsecond");
 		units  = units.replaceAll("hectare", "ha");

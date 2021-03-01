@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class SIConverterController {
 	
 	@GetMapping("/si")
-	public SIConverter convert(@RequestParam(value = "units") String units) {
+	public SIConverter convertUnits(@RequestParam(value = "units") String units) {
 		return new SIConverter(units);
 	}
 	
